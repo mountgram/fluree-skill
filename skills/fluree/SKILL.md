@@ -1,6 +1,6 @@
 ---
 name: fluree
-description: "Assist with Fluree DB v4 CLI operations, data modeling, queries, transactions, and graph schema design. Use when working with fluree commands, writing Turtle or JSON-LD data, composing SPARQL or JSON-LD queries, managing ledgers and branches, troubleshooting Fluree errors, or designing knowledge graph structure. Also use when the user mentions RDF triples, IRIs, named graphs, time travel queries, entity resolution, graph anti-patterns, cardinality, or the .fluree/ project directory."
+description: "Assist with Fluree DB operations, data modeling, queries, transactions, and graph schema design. Use when working with fluree commands, writing Turtle or JSON-LD data, composing SPARQL or JSON-LD queries, managing ledgers and branches, troubleshooting Fluree errors, or designing knowledge graph structure. Also use when the user mentions RDF triples, IRIs, named graphs, time travel queries, entity resolution, graph anti-patterns, cardinality, or the .fluree/ project directory."
 ---
 
 # Fluree DB v4
