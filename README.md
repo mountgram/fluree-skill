@@ -19,3 +19,17 @@ Fluree DB v4 changes quickly, so the skill points agents back to the live docs f
 ## Layout
 
 The skill lives at `skills/fluree/SKILL.md` using the Agent Skills specification layout.
+
+## Evals
+
+```bash
+bun test eval
+```
+
+Agent-backed evals are opt-in because they call OpenCode and require model credentials:
+
+```bash
+RUN_AGENT_EVAL=1 bun test eval/fluree-agent.test.ts --timeout 240000
+```
+
+Eval workspaces are created under `eval/workspace/` and git ignored.

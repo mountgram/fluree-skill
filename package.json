@@ -1,0 +1,9 @@
+{
+  "name": "fluree-skill",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "bun test eval",
+    "eval:agent": "RUN_AGENT_EVAL=1 bun test eval/fluree-agent.test.ts --timeout 240000"
+  }
+}
