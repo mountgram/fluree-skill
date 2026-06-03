@@ -1,5 +1,7 @@
 # Data Formats
 
+Official docs to verify current format behavior: https://labs.flur.ee/docs/db/transactions and https://labs.flur.ee/docs/db/query
+
 ## Turtle
 
 ### Basic syntax

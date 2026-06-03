@@ -1,5 +1,14 @@
 # CLI Commands Reference
 
+## Official Docs
+
+Fluree DB v4 changes actively. Verify current command syntax, flags, and examples against the live CLI docs and local help before giving exact commands:
+
+- CLI reference: https://labs.flur.ee/docs/db/cli
+- `fluree init`: https://labs.flur.ee/docs/db/cli/init
+- Full DB docs: https://labs.flur.ee/docs/db
+- Local help: `fluree --help` and `fluree <command> --help`
+
 ## Global Options
 
 | Flag | Description |

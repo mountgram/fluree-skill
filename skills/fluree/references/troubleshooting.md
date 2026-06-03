@@ -1,5 +1,7 @@
 # Troubleshooting
 
+Official docs to verify current errors and debugging guidance: https://labs.flur.ee/docs/db/troubleshooting
+
 ## Common Errors
 
 ### PARSE_ERROR - Invalid JSON-LD

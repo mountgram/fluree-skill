@@ -42,7 +42,10 @@ Out of scope:
 
 Authoritative sources:
 - Fluree DB v4 documentation at https://labs.flur.ee/docs/db
+- Fluree CLI reference at https://labs.flur.ee/docs/db/cli, including `fluree init` at https://labs.flur.ee/docs/db/cli/init
 - Fluree CLI help output (`fluree --help`, `fluree <command> --help`)
+
+Fluree DB v4 changes actively. Agents should verify current behavior in the live docs before relying on bundled reference examples for exact commands, flags, APIs, or behavior.
 
 Useful improvement sources:
 - positive examples: real Fluree projects and working commands

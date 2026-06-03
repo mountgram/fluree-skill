@@ -1,5 +1,7 @@
 # Graph Design Principles for Fluree
 
+Official docs to verify current design guidance and Fluree capabilities: https://labs.flur.ee/docs/db/design and https://labs.flur.ee/docs/db/concepts
+
 Adapted from graph engineering best practices for Fluree's RDF triple store model.
 
 ## Core Principles

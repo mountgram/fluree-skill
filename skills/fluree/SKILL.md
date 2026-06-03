@@ -7,6 +7,16 @@ description: "Assist with Fluree DB v4 CLI operations, data modeling, queries, t
 
 Fluree is a temporal graph database storing RDF triples with built-in time travel, full-text search (BM25), vector search, policy enforcement, and cryptographic verification. The CLI (`fluree`) operates directly on local ledgers without requiring a server.
 
+## Live Docs First
+
+Fluree DB v4 is actively changing. Treat the bundled references as quick guidance, but check the live docs whenever command syntax, flags, APIs, or behavior matter:
+
+- Fluree DB docs: https://labs.flur.ee/docs/db
+- CLI reference: https://labs.flur.ee/docs/db/cli
+- `fluree init`: https://labs.flur.ee/docs/db/cli/init
+
+Prefer the live docs and local `fluree --help` / `fluree <command> --help` output over stale examples in this skill.
+
 ## Project Structure
 
 After `fluree init`, the `.fluree/` directory contains:
@@ -68,6 +78,7 @@ Override with `--format turtle` or `--format jsonld`.
 
 | I need to... | Read |
 |--------------|------|
+| verify current Fluree behavior, command syntax, or new docs | https://labs.flur.ee/docs/db and `references/cli-commands.md` |
 | look up CLI command syntax, flags, or subcommands | `references/cli-commands.md` |
 | write Turtle or JSON-LD data correctly | `references/data-formats.md` |
 | compose SPARQL or JSON-LD queries | `references/query-patterns.md` |
@@ -115,4 +126,8 @@ fluree create mydb --from large.ttl --memory-budget-mb 4096 --parallelism 8
 
 ## Docs
 
-Full documentation: https://labs.flur.ee/docs/db
+Fluree changes quickly. Check the current docs before relying on command or API details:
+
+- Full documentation: https://labs.flur.ee/docs/db
+- CLI reference: https://labs.flur.ee/docs/db/cli
+- `fluree init`: https://labs.flur.ee/docs/db/cli/init

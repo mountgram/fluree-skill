@@ -1,5 +1,7 @@
 # Agent JSON Format
 
+Official docs to verify current HTTP API and output format behavior: https://labs.flur.ee/docs/db/api and https://labs.flur.ee/docs/db/query
+
 Fluree supports `application/vnd.fluree.agent+json` — a query output format optimized for LLM/agent consumption.
 
 ## Request

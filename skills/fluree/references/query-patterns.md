@@ -1,5 +1,7 @@
 # Query Patterns
 
+Official docs to verify current query behavior: https://labs.flur.ee/docs/db/query
+
 ## SPARQL Queries
 
 ### Basic SELECT

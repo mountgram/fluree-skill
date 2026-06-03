@@ -1,5 +1,7 @@
 # Branching
 
+Official docs to verify current branch behavior: https://labs.flur.ee/docs/db/cli/branch and https://labs.flur.ee/docs/db/guides
+
 ## Branch Lifecycle
 
 Branches provide git-like isolation for ledger data. Each branch has its own commit history. Transactions on one branch are invisible to others.

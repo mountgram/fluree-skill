@@ -1,5 +1,7 @@
 # BM25 Full-Text Search
 
+Official docs to verify current search behavior: https://labs.flur.ee/docs/db/indexing-and-search
+
 Fluree supports inline BM25 full-text search via the `@fulltext` datatype (JSON-LD) or `f:fullText` typed literal (Turtle). No external services required.
 
 ## Quick Start: Per-Value Annotation (`@fulltext` datatype)

@@ -1,5 +1,7 @@
 # Transaction Patterns
 
+Official docs to verify current transaction behavior: https://labs.flur.ee/docs/db/transactions
+
 ## Insert
 
 Add new triples. Does not check for existing data.
